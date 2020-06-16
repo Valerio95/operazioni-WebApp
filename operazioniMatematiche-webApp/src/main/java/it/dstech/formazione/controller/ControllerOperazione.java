@@ -9,7 +9,7 @@ import org.springframework.web.servlet.ModelAndView;
 import it.dstech.gestione.Gestione;
 
 @org.springframework.stereotype.Controller
-public class Controller {
+public class ControllerOperazione {
 	@RequestMapping(value  = "/sceltaOperazione" ,method = RequestMethod.GET)
 	public ModelAndView sceltaOperazione(@RequestParam("operazioneScelta") String operazione, Model model) {
 		 
