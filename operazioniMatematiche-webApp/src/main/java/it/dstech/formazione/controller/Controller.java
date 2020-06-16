@@ -19,7 +19,7 @@ public class Controller {
 	@RequestMapping(value  = "/eseguiOperazione", method = RequestMethod.POST)
 	public ModelAndView eseguiOperazione(@RequestParam("operazione") String operazione, Model model, @RequestParam("Primo numero")int primoNumero,@RequestParam("Secondo numero")int secondoNumero) {
 		 Gestione gestione = new Gestione();
-		 int risultato=0;
+		 double risultato=0.0;
 		if(operazione.equalsIgnoreCase("addizione")) {
 		risultato=	gestione.addizione(primoNumero, secondoNumero);
 		}else if(operazione.equalsIgnoreCase("sottrazione")) {

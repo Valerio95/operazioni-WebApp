@@ -4,19 +4,19 @@ public class Gestione {
 
 	
 	
-	public int addizione(int primo,int secondo) {
+	public double addizione(int primo,int secondo) {
 		return primo+secondo;
 	}
 	
-	public int sottrazione(int primo,int secondo) {
+	public double sottrazione(int primo,int secondo) {
 		return primo-secondo;
 	}
 	
-	public int moltiplicazione(int primo,int secondo) {
+	public double moltiplicazione(int primo,int secondo) {
 		return primo*secondo;
 	}
 	
-	public int divisione(int primo,int secondo) {
+	public double divisione(int primo,int secondo) {
 		return primo/secondo;
 	}
 }
